@@ -24,6 +24,6 @@ do
         PREFIX_TC="$i";
     fi
     FOLDER_TC="Test$PREFIX_TC"
-    cp $FOLDER_PATH/$FOLDER_TC/Sprime.INP $NEW_DIR/"test0$PREFIX_TC.txt";
-    cp $FOLDER_PATH/$FOLDER_TC/Sprime.OUT $NEW_DIR/"out0$PREFIX_TC.txt"
+    cp $FOLDER_PATH/$FOLDER_TC/$FILE_NAME.INP $NEW_DIR/"test0$PREFIX_TC.txt";
+    cp $FOLDER_PATH/$FOLDER_TC/$FILE_NAME.OUT $NEW_DIR/"out0$PREFIX_TC.txt"
 done
